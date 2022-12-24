@@ -20,7 +20,6 @@ const NewTodoForm = () => {
         text: "",
       }}
       onSubmit={(values, bag) => {
-        console.log(values);
         addTodo(values.text);
         bag.resetForm();
       }}
