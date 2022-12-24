@@ -1,5 +1,4 @@
-import React from "react";
-import { useTodo } from "../../contexts/TodoContext";
+import { useTodo } from "../../../contexts/TodoContext";
 import Item from "./Item";
 
 const List = () => {

@@ -1,5 +1,3 @@
-import React from "react";
-
 const ContentFooter = () => {
   return (
     <footer className="footer">
@@ -10,13 +8,13 @@ const ContentFooter = () => {
 
       <ul className="filters">
         <li>
-            <a className="selected">All</a>
+          <a className="selected">All</a>
         </li>
         <li>
-            <a>Active</a>
+          <a>Active</a>
         </li>
         <li>
-            <a>Completed</a>
+          <a>Completed</a>
         </li>
       </ul>
       <button className="clear-completed">Clear completed</button>

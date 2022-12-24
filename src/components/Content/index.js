@@ -1,6 +1,5 @@
-import React from "react";
-import ContentFooter from "../components/ContentFooter";
-import List from "./List/index";
+import ContentFooter from "../ContentFooter";
+import List from "./List";
 
 const Content = () => {
   return (

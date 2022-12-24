@@ -1,4 +1,4 @@
-import Content from "./Content/index";
+import Content from "./components/Content";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { TodoProvider } from "./contexts/TodoContext";

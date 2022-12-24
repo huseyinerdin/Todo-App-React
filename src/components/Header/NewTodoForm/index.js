@@ -1,4 +1,3 @@
-import React from "react";
 import { Formik, Field, Form } from "formik";
 import validationSchema from "./validations";
 import { useTodo } from "../../../contexts/TodoContext";
@@ -13,7 +12,7 @@ const NewTodoForm = () => {
   //   },
   // });
 
-  const { addTodos } = useTodo();
+  const { addTodo } = useTodo();
 
   return (
     <Formik
@@ -22,7 +21,7 @@ const NewTodoForm = () => {
       }}
       onSubmit={(values, bag) => {
         console.log(values);
-        addTodos(values.text);
+        addTodo(values.text);
         bag.resetForm();
       }}
       validationSchema={validationSchema}
@@ -37,14 +36,6 @@ const NewTodoForm = () => {
         ></Field>
       </Form>
     </Formik>
-
-    //   <form>
-    //   <input
-    //     className="new-todo"
-    //     placeholder="What needs to be done?"
-    //     autoFocus
-    //   />
-    // </form>
   );
 };
 

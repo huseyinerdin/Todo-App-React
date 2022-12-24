@@ -1,5 +1,4 @@
 import  Form  from "./NewTodoForm";
-import React from "react";
 
 const Header = () => {
   return (
