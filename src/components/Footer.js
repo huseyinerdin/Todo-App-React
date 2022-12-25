@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="info">
       <p>
         Style Created by :{" "}
-        <a href="https://codepen.io/dmitrysharabin/pen/MWgQNYZ">
+        <a href="https://d12n.me/">
           Dmitry Sharabin
         </a>
       </p>
