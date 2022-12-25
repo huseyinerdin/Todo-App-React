@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
 CSS was created by Dmitry Sharabin. https://codepen.io/dmitrysharabin/pen/MWgQNYZ
 
 ## Available Scripts
