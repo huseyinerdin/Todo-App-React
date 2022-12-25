@@ -3,15 +3,6 @@ import validationSchema from "./validations";
 import { useTodo } from "../../../contexts/TodoContext";
 
 const NewTodoForm = () => {
-  // const formik = useFormik({
-  //   initialValues: {
-  //     text: "",
-  //   },
-  //   onSubmit: (values) => {
-  //     console.log("values",values);
-  //   },
-  // });
-
   const { addTodo } = useTodo();
 
   return (
