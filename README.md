@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
-CSS file was taken from TodoMVC. (http://todomvc.com)
+CSS file was taken from [TodoMVC](http://todomvc.com)
 
 ## Available Scripts
 
